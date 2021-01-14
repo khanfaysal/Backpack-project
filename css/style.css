@@ -1,0 +1,65 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* hero part css  */
+
+.hero-partleft h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.hero-partleft p{
+    font-family: 'Roboto', sans-serif;
+}
+.hero-partleft button{
+    background-color: #363958;
+}
+.hero-img img{
+    height: 450px;
+}
+
+/* facility part css  */
+
+#facility-part{
+    margin: 150px 0 100px 0;
+}
+#casual-backpack{
+    margin-bottom: 100px;
+}
+.backpack-card{
+    border: none;
+}
+.backpack-card-body{
+    padding-left: 10px;
+}
+.backpack-card img{
+    width: 100px;
+}
+.card-img-top img {
+    width: 100px;
+}
+.casual-backpack-body{
+    background-color: #F1F1F1;
+}
+.casualback-card{
+    border: 0;
+}
+.casualback-card-footer{
+    border: 0;
+    background: white;
+}
+.casual-button{
+    background-color: #363958;   
+}
+
+/* media query code */
+@media (max-width: 575.98px) { 
+    .backpack-card{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .heading-text h1{
+        text-align: center;
+    }
+    
+}
